@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
 @Component
 public class StudentInformationServiceHelper {
 	
-	//Combining Students info and Dept info
+	//Combining Students info and Dept information
 	public Mono<StudentInformationResponse> combineResponses(List<Studentinfo> stdInfoList, Deptinfo dept){
 		StudentInformationResponse stdInfoResp = new StudentInformationResponse();
 		stdInfoResp.setDeptname(dept.getDeptname());
