@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: departmentservice
+    
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/spring_reactive
+    username: postgres
+    password: password
+    
+server:   
+  port: 8082
